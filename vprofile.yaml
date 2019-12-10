@@ -22,8 +22,8 @@
   - name: Stop tomcat service
     service: name=tomcat state=stopped
   - name: Download latest VProfile.war file
-    ADD https://github.com/sivakethineni/studentapp/blob/master/student.war?raw=true /opt/tomcat/webapps/student.war
-    ADD https://github.com/sivakethineni/studentapp/blob/master/mysql-connector-java-5.1.40.jar?raw=true /opt/tomcat/lib/mysql-connector-java-5.1.40.jar
+    ADD https://github.com/sivakethineni/studentapp/blob/master/student.war?raw=true /var/lib/tomcat/webapps/student.war
+    #ADD https://github.com/sivakethineni/studentapp/blob/master/mysql-connector-java-5.1.40.jar?raw=true /opt/tomcat/lib/mysql-connector-java-5.1.40.jar
 
  
 
