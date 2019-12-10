@@ -17,7 +17,7 @@
   "provisioners": [
     {
       "type": "ansible",
-      "playbook_file": "./vprofile.yaml"
+      "playbook_file": "vprofile.yaml"
     }
   ]
 }
